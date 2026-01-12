@@ -15,8 +15,8 @@ on:
 env:
   # Common versions
   GO_VERSION: "1.24.10"
-  GOLANGCI_VERSION: "v2.4.0"
-  DOCKER_BUILDX_VERSION: "v0.24.0"
+  GOLANGCI_VERSION: "v2.8.0"
+  DOCKER_BUILDX_VERSION: "v0.30.1"
 
   # The package to push, without a version tag. The default matches GitHub. For
   # example xpkg.crossplane.io/crossplane/function-template-go. Note that

@@ -3,10 +3,9 @@ package main
 import (
 	"context"
 
+	"github.com/upbound/provider-aws/v2/apis/namespaced/s3/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/utils/ptr"
-
-	"github.com/upbound/provider-aws/v2/apis/namespaced/s3/v1beta1"
 
 	"github.com/crossplane/function-sdk-go/errors"
 	"github.com/crossplane/function-sdk-go/logging"
