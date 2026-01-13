@@ -62,7 +62,7 @@ func TestRunFunction(t *testing.T) {
 					Desired: &fnv1.State{
 						Resources: map[string]*fnv1.Resource{
 							"xbuckets-test-bucket-a": {Resource: resource.MustStructJSON(`{
-								"apiVersion": "s3.aws.m.upbound.io/v1beta1",
+								"apiVersion": "s3.aws.upbound.io/v1beta1",
 								"kind": "Bucket",
 								"metadata": {
 									"annotations": {
@@ -79,7 +79,7 @@ func TestRunFunction(t *testing.T) {
 								}
 							}`)},
 							"xbuckets-test-bucket-b": {Resource: resource.MustStructJSON(`{
-								"apiVersion": "s3.aws.m.upbound.io/v1beta1",
+								"apiVersion": "s3.aws.upbound.io/v1beta1",
 								"kind": "Bucket",
 								"metadata": {
 									"annotations": {

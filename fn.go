@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/upbound/provider-aws/v2/apis/namespaced/s3/v1beta1"
+	"github.com/upbound/provider-aws/v2/apis/cluster/s3/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/utils/ptr"
 
